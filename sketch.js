@@ -1,0 +1,24 @@
+let marty; 
+let seventy;
+
+function preload (){
+ marty = loadImage('marty.png');
+ seventy = loadImage('seventy.png');
+}
+
+
+function setup() {
+ createCanvas(500,6500);
+   
+}
+function draw (){ 
+  if (mouseIsPressed) {
+    
+  image (marty, mouseX, mouseY, 200, 200);
+}
+  else {
+    fill (mouseX+85, mouseY-100, mouseX-20);
+    noStroke ();
+    ellipse (mouseX, mouseY, 50,50);
+  }
+}
