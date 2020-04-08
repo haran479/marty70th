@@ -1,9 +1,7 @@
 let marty; 
-let seventy;
 
 function preload (){
  marty = loadImage('marty.png');
- seventy = loadImage('seventy.png');
 }
 
 
